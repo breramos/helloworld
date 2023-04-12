@@ -21,14 +21,14 @@ public class HelloController {
 	@GetMapping("/bsm")
 	public String bsm() {
 		return "<b>BSM's Generation:<br>"
-				+ "<br>Mentalidade de Crescimento;<br>"
-				+ "<br>Persistência;<br>"
-				+ "<br>Responsabilidade Pessoal;<br>"
-				+ "<br>Orientação ao Futuro;<br>"
-				+ "<br>Comunicação;<br>"
-				+ "<br>Orientação ao Detalhe;<br>"
-				+ "<br>Proatividade;<br>"
-				+ "<br>Trabalho em Equipe<br></b>";
+				+ "<br>- Mentalidade de Crescimento;<br>"
+				+ "<br>- Persistência;<br>"
+				+ "<br>- Responsabilidade Pessoal;<br>"
+				+ "<br>- Orientação ao Futuro;<br>"
+				+ "<br>- Comunicação;<br>"
+				+ "<br>- Orientação ao Detalhe;<br>"
+				+ "<br>- Proatividade;<br>"
+				+ "<br>- Trabalho em Equipe<br></b>";
 	}
 	
 	@GetMapping("/objetivos")
